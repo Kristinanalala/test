@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.input {
+    width: 70%;
+    padding: 10px;
+    margin:5px 0;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    font-family:inherit;
+    font-size: inherit;
+}
+
+.dataMonth {
+    width: 26px;
+}
+.dataYear {
+    width: 44px;
+}
+.password {
+    width: 44px;
+    margin-left: 23%;
+}
+
+.button {
+    width: 75%;
+    padding: 10px;
+    margin:5px 0;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.1);
+    border-radius:10px;
+    font-family:inherit;
+    font-size: inherit;
+}
+.button:hover {
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.5);
+}
+
+.red{
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(248, 17, 17, 0.8);
+    border-radius:10px;
+}
